@@ -19,3 +19,14 @@ font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
+.main--section{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+}
+.main--section--list{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
