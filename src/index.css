@@ -22,11 +22,56 @@ font-family: 'Inter', sans-serif;
 .main--section{
   display: flex;
   flex-direction: column;
-  width: 600px;
-  margin: 0 auto;
+  max-width: 600px;
+  min-width: 200px;
+  margin: 3em auto;
+  gap: 2rem;
+  padding: 0 .25em;
+
 }
+
 .main--section--list{
   display: flex;
   align-items: center;
+  gap: 1.5rem;
+}
+.main-text-flex{
+  display: flex;
   gap: 1rem;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.map-link{
+  color: #918E9B;
+}
+.main-bold{
+  font-size: 1.5625rem;
+  margin: 0;
+  padding: 0;
+ 
+}
+.travel-img{
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+}
+.date-text{
+  display: flex;
+  margin: 0;
+  font-weight: 600;
+}
+.main-description{
+  margin: 0;
+  padding: 0;
+}
+.main-text-section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.location{
+  font-weight: 400;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
 }
